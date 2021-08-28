@@ -15,7 +15,7 @@ import java.io.Serializable;
 public class ModelOrder implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     private String name;
     private int qty;
